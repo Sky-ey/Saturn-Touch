@@ -1,4 +1,33 @@
+# Saturn-Touch 
+
+[[简体中文](https://github.com/Sky-ey/Saturn-Touch/blob/main/README_ZH.md)] [[English](https://github.com/Sky-ey/Saturn-Touch/blob/main/README.md)]
+
+***
+
+Saturn-Touch is a touch support for Saturn, powered by unity input manager.
+
+Saturn-Touch is ***more than*** just touch support, it contains some ***other modifications*** !
+
+### Features
+- Basic touch support
+- Muti-language (WIP)
+- Character custom（WIP）
+
+### Platforms
+- Windows 
+  - x64 ***(Tested)***
+  - Arm64 ***(Tested)***
+- Android  ***(Rendering errors exist)***
+- IOS ***(Not Tested)***
+
+### Recommend Usage
+- Windows with native touch screen
+- Sunshine + Moonlight ***(Not in mouse mode and trackpad mode)***
+- Pads installed Windows on ARM
+
+***
 # Saturn ![navigator icon](docs/SaturnNav.png)
+
 Saturn is an open-source game for arcade hardware, built from scratch by [Yasu](https://github.com/Yasu3D) and [cg505](https://github.com/cg505).
 
 ![song select screenshot](docs/screenshot1.png) ![gameplay screenshot](docs/screenshot2.png)
