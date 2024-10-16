@@ -18,39 +18,51 @@ MonoBehaviour:
   RadialSubType: 0
   DefaultItemIndex: 0
   ListItems:
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: ALWAYS ASK
+    Title: "\u603B\u662F\u8BE2\u95EE"
     SubtitleType: 0
-    Subtitle: Ask whether or not to play background videos each time.
+    Subtitle: "\u603B\u662F\u8BE2\u95EE\u662F\u5426\u64AD\u653E\u80CC\u666F\u89C6\u9891"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: BackgroundVideoSetting
     SettingsType: 1
     SettingsValueInt: 0
     SettingsValueEnum: Ask
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: ON
+    Title: "\u5F00"
     SubtitleType: 0
-    Subtitle: Always play background videos.
+    Subtitle: "\u603B\u662F\u64AD\u653E\u80CC\u666F\u89C6\u9891"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: BackgroundVideoSetting
     SettingsType: 1
     SettingsValueInt: 1
     SettingsValueEnum: On
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: OFF
+    Title: "\u5173"
     SubtitleType: 0
-    Subtitle: Never play background videos.
+    Subtitle: "\u4E0D\u64AD\u653E\u80CC\u666F\u89C6\u9891"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: BackgroundVideoSetting
     SettingsType: 1
     SettingsValueInt: 2
     SettingsValueEnum: Off
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}

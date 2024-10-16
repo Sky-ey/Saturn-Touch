@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class TitleScreenLogic : MonoBehaviour
 {
     [SerializeField] private TitleScreenBackgroundColorRandomizer colorRandomizer;
@@ -11,6 +10,7 @@ public class TitleScreenLogic : MonoBehaviour
 
     public static void OnConfirm()
     {
+        Debug.Log("ConfirmClick!");
         SceneSwitcher.Instance.LoadScene("_SongSelect");
     }
 
@@ -25,3 +25,4 @@ public class TitleScreenLogic : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R)) OnRandomizeColor();
     }
 }
+

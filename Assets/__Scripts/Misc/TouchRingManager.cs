@@ -1,16 +1,16 @@
+using JetBrains.Annotations;
+using SaturnGame.RhythmGame;
 using System;
 using System.Collections.Generic;
 using System.IO.Ports;
-using JetBrains.Annotations;
-using SaturnGame.RhythmGame;
 using UnityEngine;
 
 namespace SaturnGame
 {
-/// <summary>
-/// TouchRingManager manages the serial connection with the touch ring (input only, not LEDs).
-/// </summary>
-public class TouchRingManager : PersistentSingleton<TouchRingManager>, IInputProvider
+    /// <summary>
+    /// TouchRingManager manages the serial connection with the touch ring (input only, not LEDs).
+    /// </summary>
+    public class TouchRingManager : PersistentSingleton<TouchRingManager>, IInputProvider
 {
     public TouchState CurrentTouchState = TouchState.CreateNew();
 
@@ -212,38 +212,105 @@ public class TouchRingManager : PersistentSingleton<TouchRingManager>, IInputPro
     private async void Start()
     {
         await InitializeTouchController();
+        Debug.Log("Screen Size:" + Screen.width + "," + Screen.height);
     }
 
     private void UpdateSegments([NotNull] bool[,] segments)
     {
-        // LEFT
-        if (leftRingPort is not null)
-        {
-            ReadTouchDataNonBlocking(leftRingPort, leftTouchData);
-            for (int angleOffset = 0; angleOffset < 30; angleOffset++)
+            for (int i = 0; i < 60; i++)
+                for (int j = 0; j < 4; j++)
+                    segments[i, j] = false;
+            // LEFT
+            if (leftRingPort is not null)
             {
-                // touchData 0 is at the top, and then increasing CCW
-                int anglePos = SaturnMath.Modulo(angleOffset + 15, 60);
+                ReadTouchDataNonBlocking(leftRingPort, leftTouchData);
+                for (int angleOffset = 0; angleOffset < 30; angleOffset++)
+                {
+                    // touchData 0 is at the top, and then increasing CCW
+                    int anglePos = SaturnMath.Modulo(angleOffset + 15, 60);
 
-                for (int depthPos = 0; depthPos < 4; depthPos++)
-                    segments[anglePos, depthPos] = leftTouchData[angleOffset, 3 - depthPos];
+                    for (int depthPos = 0; depthPos < 4; depthPos++)
+                        segments[anglePos, depthPos] = leftTouchData[angleOffset, 3 - depthPos];
+                }
+            }
+
+            // Right
+            if (rightRingPort is not null)
+            {
+                ReadTouchDataNonBlocking(rightRingPort, rightTouchData);
+                for (int angleOffset = 0; angleOffset < 30; angleOffset++)
+                {
+                    // touchData 0 is at the top, and then increasing CW
+                    int anglePos = SaturnMath.Modulo(14 - angleOffset, 60);
+
+                    for (int depthPos = 0; depthPos < 4; depthPos++)
+                        segments[anglePos, depthPos] = rightTouchData[angleOffset, 3 - depthPos];
+                }
+            }
+
+            //
+            // The Part Behind Handles The Touch Input
+            //
+
+            // Debug.Log("Get " + Input.touchCount + " touchs!");
+            for (int i = 0; i < Input.touchCount; i++)
+            {
+                Touch touch = Input.GetTouch(i);
+                Vector2 touchPosition = touch.position;
+
+                // Get Screen Center Pos
+                Vector2 screenCenter = new Vector2(Screen.width / 2, Screen.height / 2);
+
+                // Calc offest
+                Vector2 offset = touchPosition - screenCenter;
+
+                // Calc radius & angle
+                float radius = offset.magnitude;
+                float angle = Mathf.Atan2(offset.y, offset.x);
+                if (angle < 0)
+                {
+                    angle += 2 * Mathf.PI;
+                }
+
+                // Set max radius to half of the narrowest side of the screen 
+                float maxRadius = Math.Min(Screen.width / 2f,Screen.height / 2f);
+
+                // Radius ratios define
+                float[] radiusRatios = { 0.8f, 0.1f, 0.1f, 0.1f };
+
+                // Calc border
+                float[] circleBoundaries = new float[5];
+                circleBoundaries[0] = 0;
+                for (int j = 1; j <= 4; j++)
+                {
+                    circleBoundaries[j] = circleBoundaries[j - 1] + radiusRatios[j - 1] * maxRadius;
+                }
+
+                // Get circle index
+                int circleIndex = 3;
+                for (int j = 0; j < 4; j++)
+                {
+                    if (radius >= circleBoundaries[j] && radius < circleBoundaries[j + 1])
+                    {
+                        circleIndex = j;
+                        break;
+                    }
+                }
+                // Reverse
+                circleIndex = 3 - circleIndex;
+
+
+                // Calc block index
+                int blockIndex = (int)((angle / (2 * Mathf.PI)) * 60) % 60;
+                segments[blockIndex, circleIndex] = true;
+
+                // Big hand mode
+                //_ = blockIndex == 60 ? segments[0, circleIndex] = true : segments[blockIndex + 1, circleIndex] = true;
+                //_ = blockIndex == 0 ? segments[60, circleIndex] = true : segments[blockIndex - 1, circleIndex] = true;
+                //Debug.Log("Touch " + i + "Segment:" + blockIndex + "," + circleIndex);
             }
         }
 
-        // Right
-        if (rightRingPort is not null)
-        {
-            ReadTouchDataNonBlocking(rightRingPort, rightTouchData);
-            for (int angleOffset = 0; angleOffset < 30; angleOffset++)
-            {
-                // touchData 0 is at the top, and then increasing CW
-                int anglePos = SaturnMath.Modulo(14 - angleOffset, 60);
-
-                for (int depthPos = 0; depthPos < 4; depthPos++)
-                    segments[anglePos, depthPos] = rightTouchData[angleOffset, 3 - depthPos];
-            }
-        }
-    }
 
     private void Update()
     {

@@ -24,43 +24,46 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: LOW LATENCY
+    Title: "\u4F4E\u5EF6\u8FDF"
     SubtitleType: 0
-    Subtitle: Adjustable Audio Offset. No artificial latency.
+    Subtitle: "\u53EF\u8C03\u8282\u97F3\u9891\u504F\u79FB, \u65E0\u989D\u5916\u5EF6\u8FDF"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: OffsetMode
     SettingsType: 1
     SettingsValueInt: 0
     SettingsValueEnum: Standard
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
   - VisibilityType: 0
     ConditionParameter: 
     ConditionValue: 0
     ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: CLASSIC
+    Title: "\u7ECF\u5178"
     SubtitleType: 0
-    Subtitle: Adjustalble Audio Offset. Artificial latency similar to original game.
+    Subtitle: "\u53EF\u8C03\u97F3\u9891\u504F\u79FB, \u5EF6\u8FDF\u7C7B\u4F3C\u4E8E\u539F\u6E38\u620F"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: OffsetMode
     SettingsType: 1
     SettingsValueInt: 0
     SettingsValueEnum: Classic
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
   - VisibilityType: 0
     ConditionParameter: 
     ConditionValue: 0
     ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: ADVANCED
+    Title: "\u8FDB\u9636"
     SubtitleType: 0
-    Subtitle: Fully adjust Audio, Visuals, and Artificial Latency.
+    Subtitle: "\u53EF\u4EE5\u8C03\u6574\u5168\u90E8\u5EF6\u8FDF"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: OffsetMode
     SettingsType: 1
     SettingsValueInt: 2
     SettingsValueEnum: Advanced
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}

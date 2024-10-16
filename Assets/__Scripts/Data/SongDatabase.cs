@@ -12,11 +12,12 @@ namespace SaturnGame.Data
 public class SongDatabase : MonoBehaviour
 {
     [NotNull] public static string SongPacksPath => Path.Combine(Application.streamingAssetsPath, "SongPacks");
-    private readonly List<Song> songs = new();
+        private readonly List<Song> songs = new();
 
     public void LoadAllSongData()
     {
         string songPacksPath = SongPacksPath;
+        Debug.Log(songPacksPath);
         Directory.CreateDirectory(songPacksPath);
         IEnumerable<string> songDirectories =
             Directory.EnumerateFiles(songPacksPath, "meta.mer", SearchOption.AllDirectories);

@@ -18,27 +18,35 @@ MonoBehaviour:
   RadialSubType: 0
   DefaultItemIndex: 0
   ListItems:
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: OFF
+    Title: "\u5173"
     SubtitleType: 0
-    Subtitle: Don't mirror Notes.
+    Subtitle: "\u65E0\u8C31\u9762\u955C\u50CF"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: MirrorNotes
     SettingsType: 1
     SettingsValueInt: 0
     SettingsValueEnum: Off
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: ON
+    Title: "\u5F00"
     SubtitleType: 0
-    Subtitle: Mirror Notes horizontally.
+    Subtitle: "\u4E0A\u4E0B\u955C\u50CF"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: MirrorNotes
     SettingsType: 1
     SettingsValueInt: 1
     SettingsValueEnum: On
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}

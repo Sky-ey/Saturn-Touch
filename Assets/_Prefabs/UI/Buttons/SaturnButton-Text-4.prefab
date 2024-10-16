@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be9f795ac938fb418b3cb38290a9c99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enabled: 1
+  compositor: {fileID: 0}
   Layer: 10
   touchButton: {fileID: 8737470943376577948}
 --- !u!1 &8605951935976276536

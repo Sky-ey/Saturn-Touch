@@ -423,7 +423,24 @@ PrefabInstance:
     - target: {fileID: 8813558283991467867, guid: 2918ee8fb1978f8408d021432b992059,
         type: 3}
       propertyPath: m_text
-      value: OK
+      value: "\u786E\u8BA4"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813558283991467867, guid: 2918ee8fb1978f8408d021432b992059,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: aa55815f612e2d342abfda282cd0f232,
+        type: 2}
+    - target: {fileID: 8813558283991467867, guid: 2918ee8fb1978f8408d021432b992059,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8412653394581614410, guid: aa55815f612e2d342abfda282cd0f232,
+        type: 2}
+    - target: {fileID: 8813558283991467867, guid: 2918ee8fb1978f8408d021432b992059,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8813558283991467867, guid: 2918ee8fb1978f8408d021432b992059,
         type: 3}

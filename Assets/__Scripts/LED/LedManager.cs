@@ -22,23 +22,23 @@ public class LedManager : PersistentSingleton<LedManager>
         rgbaValues = new Color32[480],
     };
 
-    private void Start()
+    private async void Start()
     {
-        if (useNativeLedImplementation)
-        {
-            nativeLedOutput = new();
-            nativeLedOutput.Init();
+            if (useNativeLedImplementation)
+            {
+                nativeLedOutput = new();
+                nativeLedOutput.Init();
+            }
+            else
+                USBIntLED.Safe_USBIntLED_Init();
         }
-        else
-            USBIntLED.Safe_USBIntLED_Init();
-    }
     private async void FixedUpdate()
     {
-        Color[,] ledValues = BaseLedCompositor.Draw();
-        if (ringDebugManager != null) ringDebugManager.UpdateColors(ledValues);
+            Color[,] ledValues = BaseLedCompositor.Draw();
+            if (ringDebugManager != null) ringDebugManager.UpdateColors(ledValues);
 
-        await SetCabLeds(ledValues);
-    }
+            await SetCabLeds(ledValues);
+        }
 
     private volatile bool sendingLedData;
 

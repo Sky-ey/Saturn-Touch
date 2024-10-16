@@ -19,27 +19,35 @@ MonoBehaviour:
   RadialSubType: 0
   DefaultItemIndex: 1
   ListItems:
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: OFF
+    Title: "\u5173"
     SubtitleType: 0
-    Subtitle: Turn Bonus Notes OFF.
+    Subtitle: "\u5173\u95EDBonus\u97F3\u7B26\u7279\u6548"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: BonusEffectSetting
     SettingsType: 1
     SettingsValueInt: 0
     SettingsValueEnum: Off
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - ItemType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: ON
+    Title: "\u5F00"
     SubtitleType: 0
-    Subtitle: Turn Bonus Notes ON.
+    Subtitle: "\u5F00\u542FBonus\u97F3\u7B26\u7279\u6548"
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: BonusEffectSetting
     SettingsType: 1
     SettingsValueInt: 1
     SettingsValueEnum: On
+    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
