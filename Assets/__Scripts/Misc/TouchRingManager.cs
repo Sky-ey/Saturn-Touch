@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using SaturnGame.Rendering;
 using SaturnGame.RhythmGame;
 using System;
 using System.Collections.Generic;
@@ -276,7 +277,7 @@ namespace SaturnGame
                 float maxRadius = Math.Min(Screen.width / 2f,Screen.height / 2f);
 
                 // Radius ratios define
-                float[] radiusRatios = { 0.8f, 0.1f, 0.1f, 0.1f };
+                float[] radiusRatios = { 0.5f, 0.2f, 0.2f, 0.2f };
 
                 // Calc border
                 float[] circleBoundaries = new float[5];
@@ -297,8 +298,10 @@ namespace SaturnGame
                     }
                 }
                 // Reverse
-                circleIndex = 3 - circleIndex;
-
+                if (playingStatus == 1)
+                {
+                    circleIndex = 3 - circleIndex;
+                }
 
                 // Calc block index
                 int blockIndex = (int)((angle / (2 * Mathf.PI)) * 60) % 60;
@@ -322,6 +325,12 @@ namespace SaturnGame
     public TouchState GetCurrentTouchState()
     {
         return CurrentTouchState;
+    }
+
+    private int playingStatus = 0;
+    public void SetCurrentPlatingStatus(int i)
+    {
+        playingStatus = i;
     }
 }
 }
