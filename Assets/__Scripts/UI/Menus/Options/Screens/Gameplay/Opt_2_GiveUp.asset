@@ -18,115 +18,87 @@ MonoBehaviour:
   RadialSubType: 0
   DefaultItemIndex: 1
   ListItems:
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u5173"
+    Title: OFF
     SubtitleType: 0
-    Subtitle: "\u4E0D\u4E2D\u9014\u653E\u5F03"
+    Subtitle: The game will not end early.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 0
     SettingsValueEnum: Off
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u957F\u65F6\u95F4\u4E0D\u6D3B\u52A8"
+    Title: NO TOUCH
     SubtitleType: 0
-    Subtitle: "\u4E00\u6BB5\u65F6\u95F4\u6CA1\u6709\u89E6\u6478\u540E\u6E38\u620F\u5C06\u7ED3\u675F"
+    Subtitle: The game will end after a certain amount of time with no inputs.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 1
     SettingsValueEnum: NoTouch
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u4F4E\u4E8ES\u7B49\u7EA7"
+    Title: S RANK BORDER
     SubtitleType: 0
-    Subtitle: "\u4F4E\u4E8ES\u7B49\u7EA7\u7EBF\u540E\u81EA\u52A8\u653E\u5F03"
+    Subtitle: Give up once an S Rank is no longer possible.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 2
     SettingsValueEnum: SBorder
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u4F4E\u4E8ESS\u7B49\u7EA7\u7EBF"
+    Title: SS RANK BORDER
     SubtitleType: 0
-    Subtitle: "\u4F4E\u4E8ESS\u7B49\u7EA7\u7EBF\u540E\u81EA\u52A8\u653E\u5F03"
+    Subtitle: Give up once an SS Rank is no longer possible.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 3
     SettingsValueEnum: SSBorder
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u4F4E\u4E8ESSS\u7B49\u7EA7\u7EBF\u540E\u81EA\u52A8\u653E\u5F03"
+    Title: SSS RANK BORDER
     SubtitleType: 0
-    Subtitle: "\u4F4E\u4E8ESSS\u7B49\u7EA7\u7EBF\u540E\u81EA\u52A8\u653E\u5F03"
+    Subtitle: Give up once an SSS Rank is no longer possible.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 4
     SettingsValueEnum: SSSBorder
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u4F4E\u4E8EMaster\u7B49\u7EA7"
+    Title: MASTER RANK BORDER
     SubtitleType: 0
-    Subtitle: "\u4F4E\u4E8EMaster\u7B49\u7EA7\u7EBF\u540E\u81EA\u52A8\u653E\u5F03"
+    Subtitle: Give up once a MASTER Rank is no longer possible.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 5
     SettingsValueEnum: MasterBorder
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
-    ItemType: 0
+  - ItemType: 0
     Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
-    Title: "\u4F4E\u4E8E\u4E2A\u4EBA\u6700\u4F73"
+    Title: PERSONAL BEST BORDER
     SubtitleType: 0
-    Subtitle: "\u4F4E\u4E8E\u4E2A\u4EBA\u6700\u4F73\u540E\u81EA\u52A8\u653E\u5F03"
+    Subtitle: Give up once beating your personal best is no longer possible.
     SettingsBinding: 
     Sprite: {fileID: 0}
     SettingsParameter: GiveUpSetting
     SettingsType: 1
     SettingsValueInt: 6
     SettingsValueEnum: PersonalBestBorder
-    SettingsValueFloat: 0
     NextScreen: {fileID: 0}

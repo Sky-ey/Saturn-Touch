@@ -23,7 +23,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u97F3\u7B26\u6D41\u901F"
+    Title: NOTE SPEED
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: NoteSpeed
@@ -39,7 +39,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u504F\u79FB\u6A21\u5F0F"
+    Title: OFFSET MODE
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: OffsetMode
@@ -55,7 +55,7 @@ MonoBehaviour:
     ConditionValue: Advanced
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u97F3\u9891\u504F\u79FB"
+    Title: AUDIO OFFSET
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: AudioOffsetMs
@@ -71,7 +71,7 @@ MonoBehaviour:
     ConditionValue: Standard
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u97F3\u9891\u504F\u79FB"
+    Title: AUDIO OFFSET
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: AudioOffsetMs
@@ -87,7 +87,7 @@ MonoBehaviour:
     ConditionValue: Classic
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u97F3\u9891\u504F\u79FB"
+    Title: AUDIO OFFSET
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: ClassicOffset
@@ -103,7 +103,7 @@ MonoBehaviour:
     ConditionValue: Advanced
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u8C31\u9762\u504F\u79FB"
+    Title: VISUAL OFFSET
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: VisualOffsetMs
@@ -119,7 +119,7 @@ MonoBehaviour:
     ConditionValue: Advanced
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u8F93\u5165\u5EF6\u8FDF"
+    Title: INPUT LATENCY
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: InputLatencyMs
@@ -135,7 +135,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u906E\u7F69\u6D53\u5EA6"
+    Title: MASK DENSITY
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: MaskDensity
@@ -151,7 +151,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u80CC\u666F\u89C6\u9891"
+    Title: BACKGROUND VIDEO
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: BackgroundVideoSetting
@@ -167,7 +167,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "Bonus \u504F\u79FB"
+    Title: BONUS EFFECT
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: BonusEffectSetting
@@ -183,7 +183,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u8C31\u9762\u955C\u50CF"
+    Title: MIRROR NOTES
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: MirrorNotes
@@ -199,7 +199,7 @@ MonoBehaviour:
     ConditionValue: 0
     ItemType: 1
     Color: {r: 1, g: 1, b: 1, a: 1}
-    Title: "\u5F03\u6743\u8BBE\u5B9A"
+    Title: GIVE UP
     SubtitleType: 1
     Subtitle: 
     SettingsBinding: GiveUpSetting

@@ -25,1013 +25,1619 @@ MonoBehaviour:
   RadialSubType: 3
   DefaultItemIndex: 100
   ListItems:
-  - SubtitleType: 0
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: 0 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 0
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +1 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 1
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 1
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +2 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 2
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 2
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +3 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 3
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 3
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +4 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 4
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 4
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +5 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 5
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 5
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +6 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 6
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 6
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +7 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 7
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 7
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +8 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 8
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 8
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +9 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 9
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 9
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +10 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 10
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 10
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +11 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 11
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 11
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +12 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 12
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 12
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +13 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 13
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 13
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +14 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 14
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 14
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +15 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 15
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 15
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +16 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 16
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 16
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +17 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 17
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 17
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +18 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 18
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 18
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +19 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 19
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 19
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +20 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 20
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 20
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +21 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 21
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 21
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +22 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 22
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 22
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +23 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 23
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 23
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +24 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 24
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 24
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +25 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 25
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 25
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +26 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 26
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 26
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +27 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 27
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 27
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +28 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 28
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 28
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +29 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 29
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 29
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +30 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 30
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 30
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +31 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 31
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 31
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +32 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 32
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 32
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +33 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 33
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 33
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +34 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 34
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 34
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +35 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 35
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 35
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +36 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 36
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 36
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +37 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 37
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 37
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +38 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 38
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 38
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +39 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 39
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 39
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +40 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 40
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 40
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +41 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 41
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 41
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +42 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 42
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 42
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +43 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 43
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 43
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +44 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 44
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 44
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +45 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 45
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 45
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +46 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 46
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 46
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +47 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 47
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 47
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +48 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 48
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 48
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +49 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 49
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 49
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +50 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 50
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 50
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +51 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 51
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 51
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +52 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 52
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 52
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +53 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 53
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 53
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +54 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 54
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 54
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +55 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 55
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 55
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +56 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 56
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 56
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +57 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 57
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 57
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +58 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 58
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 58
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +59 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 59
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 59
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +60 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 60
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 60
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +61 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 61
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 61
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +62 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 62
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 62
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +63 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 63
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 63
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +64 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 64
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 64
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +65 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 65
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 65
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +66 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 66
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 66
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +67 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 67
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 67
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +68 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 68
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 68
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +69 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 69
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 69
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +70 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 70
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 70
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +71 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 71
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 71
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +72 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 72
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 72
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +73 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 73
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 73
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +74 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 74
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 74
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +75 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 75
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 75
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +76 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 76
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 76
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +77 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 77
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 77
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +78 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 78
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 78
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +79 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 79
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 79
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +80 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 80
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 80
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +81 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 81
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 81
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +82 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 82
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 82
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +83 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 83
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 83
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +84 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 84
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 84
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +85 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 85
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 85
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +86 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 86
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 86
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +87 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 87
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 87
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +88 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 88
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 88
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +89 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 89
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 89
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +90 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 90
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 90
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +91 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 91
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 91
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +92 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 92
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 92
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +93 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 93
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 93
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +94 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 94
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 94
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +95 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 95
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 95
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +96 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 96
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 96
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +97 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 97
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 97
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +98 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 98
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 98
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +99 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 99
-  - SubtitleType: 0
+    SettingsType: 0
+    SettingsValueInt: 99
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
     ItemType: 0
     Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
     Title: +100 MS
+    SubtitleType: 0
     Subtitle: 
-    Sprite: {fileID: 0}
     SettingsBinding: 
-    NextScreen: {fileID: 0}
+    Sprite: {fileID: 0}
     SettingsParameter: InputLatencyMs
-    SettingsValue: 100
+    SettingsType: 0
+    SettingsValueInt: 100
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}

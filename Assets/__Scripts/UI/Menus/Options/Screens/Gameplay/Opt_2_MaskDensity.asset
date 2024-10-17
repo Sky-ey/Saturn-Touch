@@ -20,83 +20,53 @@ MonoBehaviour:
   RadialSubType: 2
   DefaultItemIndex: 2
   ListItems:
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
+  - SubtitleType: 0
     ItemType: 0
     Color: {r: 0.9450981, g: 0.94117653, b: 0.9490197, a: 1}
-    Title: "\u65E0\u906E\u7F69"
-    SubtitleType: 0
+    Title: NO MASK
     Subtitle: 
-    SettingsBinding: 
     Sprite: {fileID: 0}
-    SettingsParameter: MaskDensity
-    SettingsType: 0
-    SettingsValueInt: 0
-    SettingsValueEnum: 
-    SettingsValueFloat: 0
+    SettingsBinding: 
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
+    SettingsParameter: MaskDensity
+    SettingsValue: 0
+  - SubtitleType: 0
     ItemType: 0
     Color: {r: 0.8352942, g: 0.82745105, b: 0.8588236, a: 1}
-    Title: +1
-    SubtitleType: 0
+    Title: MASK +1
     Subtitle: 
-    SettingsBinding: 
     Sprite: {fileID: 0}
-    SettingsParameter: MaskDensity
-    SettingsType: 0
-    SettingsValueInt: 1
-    SettingsValueEnum: 
-    SettingsValueFloat: 0
+    SettingsBinding: 
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
+    SettingsParameter: MaskDensity
+    SettingsValue: 1
+  - SubtitleType: 0
     ItemType: 0
     Color: {r: 0.7372549, g: 0.7176471, b: 0.77647066, a: 1}
-    Title: +2
-    SubtitleType: 0
+    Title: MASK +2
     Subtitle: 
-    SettingsBinding: 
     Sprite: {fileID: 0}
-    SettingsParameter: MaskDensity
-    SettingsType: 0
-    SettingsValueInt: 2
-    SettingsValueEnum: 
-    SettingsValueFloat: 0
+    SettingsBinding: 
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
+    SettingsParameter: MaskDensity
+    SettingsValue: 2
+  - SubtitleType: 0
     ItemType: 0
     Color: {r: 0.6, g: 0.5764706, b: 0.6666667, a: 1}
-    Title: +3
-    SubtitleType: 0
+    Title: MASK +3
     Subtitle: 
-    SettingsBinding: 
     Sprite: {fileID: 0}
-    SettingsParameter: MaskDensity
-    SettingsType: 0
-    SettingsValueInt: 3
-    SettingsValueEnum: 
-    SettingsValueFloat: 0
+    SettingsBinding: 
     NextScreen: {fileID: 0}
-  - VisibilityType: 0
-    ConditionParameter: 
-    ConditionValue: 
+    SettingsParameter: MaskDensity
+    SettingsValue: 3
+  - SubtitleType: 0
     ItemType: 0
     Color: {r: 0.43529415, g: 0.3803922, b: 0.54509807, a: 1}
-    Title: +4
-    SubtitleType: 0
+    Title: MASK +4
     Subtitle: 
-    SettingsBinding: 
     Sprite: {fileID: 0}
-    SettingsParameter: MaskDensity
-    SettingsType: 0
-    SettingsValueInt: 4
-    SettingsValueEnum: 
-    SettingsValueFloat: 0
+    SettingsBinding: 
     NextScreen: {fileID: 0}
+    SettingsParameter: MaskDensity
+    SettingsValue: 4
