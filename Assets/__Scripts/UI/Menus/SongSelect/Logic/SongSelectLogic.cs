@@ -5,6 +5,7 @@ using JetBrains.Annotations;
 using SaturnGame.Data;
 using SaturnGame.Loading;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace SaturnGame.UI
 {
@@ -39,6 +40,7 @@ public class SongSelectLogic : MonoBehaviour
     [SerializeField] private GameObject diffPlusButton1;
     [SerializeField] private GameObject diffMinusButton0;
     [SerializeField] private GameObject diffMinusButton1;
+    [SerializeField] private Image characterImage;
     private static UIAudioController UIAudio => UIAudioController.Instance;
 
     private async void Start()
@@ -54,6 +56,14 @@ public class SongSelectLogic : MonoBehaviour
         {
             buttonManager.SetActiveButtons(1);
             pageAnimator.ToChartPreviewInstant();
+        }
+
+        Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
+        Debug.Log(Application.streamingAssetsPath);
+        if (character != null)
+        {
+            Debug.Log("Character Replaced!");
+            characterImage.sprite = Sprite.Create(character, new Rect(0, 0, character.width, character.height), new Vector2(0.5f, 0.5f));
         }
 
         await LoadAllCards();
