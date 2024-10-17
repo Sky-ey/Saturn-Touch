@@ -99,6 +99,22 @@ MonoBehaviour:
       \u6765\u9009\u62E9\n\u6309\u4E0B <style=SemiBold>TEST</style> \u6765\u786E\u8BA4"
     m_Metadata:
       m_Items: []
+  - m_Id: 326960449454080
+    m_Localized: "\u53D6\u5F97\u7387"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327185079599104
+    m_Localized: "R\u97F3\u7B26"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327287181541376
+    m_Localized: "\u5F97\u5206"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363261714366464
+    m_Localized: "\u8BE6\u7EC6"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

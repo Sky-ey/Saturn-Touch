@@ -20,9 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/_Options.unity
     guid: 5fdf760b4daba0f43aa031a77de2305e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menus/_SongResults.unity
     guid: 8e95e5b64adf63e4596670861a9687ea
+  - enabled: 1
+    path: Assets/Scenes/Menus/_SongResults_NEW.unity
+    guid: 3c63a44b07dcc5549bba30bc86c64a15
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 06e4de17c2893474196e6f2c66da4f87,
       type: 2}

@@ -95,6 +95,22 @@ MonoBehaviour:
     m_Key: ControlTip
     m_Metadata:
       m_Items: []
+  - m_Id: 326960449454080
+    m_Key: Results-Percentage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327185079599104
+    m_Key: Results-RNotes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327287181541376
+    m_Key: Results-Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363261714366464
+    m_Key: ShowDetail
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

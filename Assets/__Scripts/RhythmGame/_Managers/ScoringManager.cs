@@ -639,7 +639,7 @@ public class ScoringManager : MonoBehaviour
                 await replayManager.WriteReplayFile();
 
             PersistentStateManager.Instance.LastScoreData = CurrentScoreData();
-            SceneSwitcher.Instance.LoadScene("_SongResults");
+            SceneSwitcher.Instance.LoadScene("_SongResults_NEW");
         }
     }
 }

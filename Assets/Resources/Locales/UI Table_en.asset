@@ -23,7 +23,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 699235696640
-    m_Localized: Confirm
+    m_Localized: 'Go
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 780311592960
@@ -107,6 +109,24 @@ MonoBehaviour:
       PRESS <style=SemiBold>TEST</style> TO CONFIRM
 
 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326960449454080
+    m_Localized: '% OF NOTES'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327185079599104
+    m_Localized: R-NOTES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327287181541376
+    m_Localized: 'SCORE
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363261714366464
+    m_Localized: DETAIL
     m_Metadata:
       m_Items: []
   references:
