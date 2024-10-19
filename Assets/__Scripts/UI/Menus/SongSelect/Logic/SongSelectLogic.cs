@@ -58,7 +58,8 @@ public class SongSelectLogic : MonoBehaviour
             pageAnimator.ToChartPreviewInstant();
         }
 
-        Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
+        //Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
+        Texture2D character = await ImageLoader.LoadImageWebRequest(Application.persistentDataPath + "/character.png");
         Debug.Log(Application.streamingAssetsPath);
         if (character != null)
         {
@@ -436,12 +437,12 @@ public class SongSelectLogic : MonoBehaviour
     {
         if (page == MenuPage.ExitingMenu) return;
 
-        if (page != MenuPage.ChartPreview)
-        {
-            // nope sound
-            UIAudio.PlaySound(UIAudioController.UISound.Back);
-            return;
-        }
+        //if (page != MenuPage.ChartPreview)
+        //{
+        //    // nope sound
+        //    UIAudio.PlaySound(UIAudioController.UISound.Back);
+        //    return;
+        //}
 
         UIAudio.PlaySound(UIAudioController.UISound.Impact);
         bgmPreview.FadeoutBgmPreview(true);

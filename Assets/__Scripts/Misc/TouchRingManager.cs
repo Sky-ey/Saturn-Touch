@@ -310,7 +310,7 @@ namespace SaturnGame
                 // Big hand mode
                 //_ = blockIndex == 60 ? segments[0, circleIndex] = true : segments[blockIndex + 1, circleIndex] = true;
                 //_ = blockIndex == 0 ? segments[60, circleIndex] = true : segments[blockIndex - 1, circleIndex] = true;
-                //Debug.Log("Touch " + i + "Segment:" + blockIndex + "," + circleIndex);
+                Debug.Log("Touch " + i + "Segment:" + blockIndex + "," + circleIndex);
             }
         }
 

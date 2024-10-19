@@ -18,8 +18,10 @@ public class ScoringManager : MonoBehaviour
 {
     public bool AutoWriteReplays = true;
     public bool WritingReplayAndExiting; // Only modify on main thread Update()
+	[SerializeField] public bool IsAutoPlay = false;
 
-    [Header("DEBUG")]
+
+	[Header("DEBUG")]
     [SerializeField] private JudgeDebugInfo judgeDebugInfo;
     [SerializeField] private NoteDebugInfo noteDebugInfo;
     [SerializeField] private TextMeshProUGUI holdDebugText;
@@ -544,7 +546,12 @@ public class ScoringManager : MonoBehaviour
     //   triggering scoring updates during sparse input methods such as replays.)
     public void HandleInput(TouchState? touchState, float timeMs)
     {
-        if (Notes is null)
+		if (IsAutoPlay)
+		{
+			AutoPlayNotes(timeMs);
+			return;
+		}
+		if (Notes is null)
         {
             Debug.LogError("Tried to judge an input, but no chart loaded");
             return;
@@ -602,7 +609,39 @@ public class ScoringManager : MonoBehaviour
         }
     }
 
-    private void Start()
+	private void AutoPlayNotes(float timeMs)
+	{
+		for (int noteScanIndex = minNoteIndex; noteScanIndex < Notes.Count; noteScanIndex++)
+		{
+			Note note = Notes[noteScanIndex];
+
+            float hitTime = (note.EarliestHitTimeMs.GetValueOrDefault() + note.LatestHitTimeMs.GetValueOrDefault()) / 2f;
+            float offset = 35f;
+
+            // Check if the note can be hit within its timing window
+            if (timeMs >= hitTime - offset && timeMs <= hitTime + offset)
+			{
+				HitNote(note.TimeMs, note);
+
+				// 更新 minNoteIndex 以跳过已处理的音符
+				minNoteIndex = noteScanIndex + 1;
+			}
+		}
+
+		// 更新活跃的长按音符
+		for (int i = 0; i < activeHolds.Count;)
+		{
+			HoldNote holdNote = activeHolds[i];
+			bool holdFinished = UpdateHold(timeMs, holdNote);
+			if (holdFinished)
+				activeHolds.Remove(holdNote);
+			else
+				i++;
+		}
+	}
+
+
+		private void Start()
     {
         // Disable automatic GC during gameplay to avoid lag spikes
         // Warning: if allocations are too high, this can cause OOM

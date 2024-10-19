@@ -15,84 +15,60 @@ MonoBehaviour:
   m_TableCollectionName: UI Table
   m_TableCollectionNameGuidString: b87a3ad6f210d15429812329207cbd1e
   m_Entries:
-  - m_Id: 13232111616
-    m_Key: Start
+  - m_Id: 780311592960
+    m_Key: General-Back
     m_Metadata:
       m_Items: []
   - m_Id: 699235696640
-    m_Key: Confirm
-    m_Metadata:
-      m_Items: []
-  - m_Id: 780311592960
-    m_Key: Back
-    m_Metadata:
-      m_Items: []
-  - m_Id: 15277696876544
-    m_Key: RandomSong
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16737058816000
-    m_Key: PrevGroup
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16772660068352
-    m_Key: NextGroup
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17005657849856
-    m_Key: Reload
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17203830325248
-    m_Key: RandomGroup
+    m_Key: General-Confirm
     m_Metadata:
       m_Items: []
   - m_Id: 20499462750208
-    m_Key: Go
-    m_Metadata:
-      m_Items: []
-  - m_Id: 21336599691264
-    m_Key: Mask
-    m_Metadata:
-      m_Items: []
-  - m_Id: 21413967822848
-    m_Key: Speed
-    m_Metadata:
-      m_Items: []
-  - m_Id: 21470314102784
-    m_Key: Offset
-    m_Metadata:
-      m_Items: []
-  - m_Id: 21528803672064
-    m_Key: GiveUp
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24000465076224
-    m_Key: TestMenu
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24146804342784
-    m_Key: CreditLog
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25036021956608
-    m_Key: HardwareTest
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25162283089920
-    m_Key: HardwareInfo
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25198698037248
-    m_Key: SystemSettings
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25255488913408
-    m_Key: Return2Game
+    m_Key: General-Go
     m_Metadata:
       m_Items: []
   - m_Id: 26265682837504
-    m_Key: ControlTip
+    m_Key: Maintain-ControlTip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24146804342784
+    m_Key: Maintain-CreditLog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25162283089920
+    m_Key: Maintain-HardwareInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25036021956608
+    m_Key: Maintain-HardwareTest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25255488913408
+    m_Key: Maintain-Return2Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25198698037248
+    m_Key: Maintain-SystemSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24000465076224
+    m_Key: Maintain-TestMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21528803672064
+    m_Key: Preview-GiveUp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21336599691264
+    m_Key: Preview-Mask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21470314102784
+    m_Key: Preview-Offset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21413967822848
+    m_Key: Preview-Speed
     m_Metadata:
       m_Items: []
   - m_Id: 326960449454080
@@ -108,7 +84,39 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 363261714366464
-    m_Key: ShowDetail
+    m_Key: Results-ShowDetail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16772660068352
+    m_Key: Select-NextGroup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16737058816000
+    m_Key: Select-PrevGroup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17203830325248
+    m_Key: Select-RandomGroup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15277696876544
+    m_Key: Select-RandomSong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17005657849856
+    m_Key: Select-Reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13232111616
+    m_Key: Title-Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 835914673815552
+    m_Key: Title-LanguageButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850125248397312
+    m_Key: Option-Title
     m_Metadata:
       m_Items: []
   m_Metadata:

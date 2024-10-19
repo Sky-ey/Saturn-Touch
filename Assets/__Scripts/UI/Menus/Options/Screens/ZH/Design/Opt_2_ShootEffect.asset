@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_2_ShootEffect
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: "\u89E6\u6478\u7279\u6548\uFF08\u70B8\u88C2\uFF09"
+  ScreenSubtitle: "\u662F\u5426\u5C55\u793A\u89E6\u6478\u7279\u6548\uFF08\u70B8\u88C2\uFF09"
+  ScreenType: 2
+  RadialSubType: 1
+  DefaultItemIndex: 1
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: OFF
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 21300000, guid: 183f34b743aeb9645a477da00ac7e93f, type: 3}
+    SettingsParameter: ShowShootEffect
+    SettingsType: 1
+    SettingsValueInt: 0
+    SettingsValueEnum: Off
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: ON
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 21300000, guid: 183f34b743aeb9645a477da00ac7e93f, type: 3}
+    SettingsParameter: ShowShootEffect
+    SettingsType: 1
+    SettingsValueInt: 1
+    SettingsValueEnum: On
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}

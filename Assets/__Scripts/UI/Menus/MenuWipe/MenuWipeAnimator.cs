@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.Localization.Settings;
 
 namespace SaturnGame.UI
 {
@@ -96,7 +97,7 @@ public class MenuWipeAnimator : MonoBehaviour
 
     private void RandomizeSplashText()
     {
-        string[] messages =
+        string[] messagesEn =
         {
             "び",
             ":3",
@@ -142,8 +143,43 @@ public class MenuWipeAnimator : MonoBehaviour
             "Unexpected item in bagging area",
         };
 
-        int randomID = Random.Range(0, messages.Length - 1);
-        splashText.text = messages[randomID];
+        string[] messagesZh =
+        {
+			"ALL Marvelous!",
+            "Huh?",
+            "真的有人看这个吗？",
+            "要玩的开心哦 ~",
+            "打不过？开摆！",
+            "记得喝口水哦！",
+            "起来活动下吧！",
+            "你又在打电动哦 ~",
+			"OOkay let's do this thing!",
+			"我去！划卡鹦鹉！",
+            "哈↑",
+            "某强烈脱水的滚筒洗衣机",
+            "不要凉啊 ~ 我的划卡 ~",
+            "Wacca Never End !",
+            "听好了！嗯，听好了",
+            "zijixie!",
+			"哥们对着那台长得像喇叭的机子哭成泪人",
+			"喂！那不是触摸屏啊！",
+			"记得切hold",
+            "ipa when ?",
+            "The way to the right",
+            "为什么Todo这么长啊啊啊啊",
+            "Wacca，享年三岁",
+			"滑键直接放hold里会蹭"
+		};
+        if (LocalizationSettings.SelectedLocale.Identifier.Code == "en")
+        {
+	        int randomID = Random.Range(0, messagesEn.Length - 1);
+			splashText.text = messagesEn[randomID];
+		} else
+        {
+		    int randomID = Random.Range(0, messagesZh.Length - 1);
+			splashText.text = messagesZh[randomID];
+		}
+
     }
 }
 }

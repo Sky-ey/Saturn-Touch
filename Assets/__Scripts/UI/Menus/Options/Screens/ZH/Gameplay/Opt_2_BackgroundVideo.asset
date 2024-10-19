@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_2_BackgroundVideo
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: "\u80CC\u666F\u89C6\u9891"
+  ScreenSubtitle: "\u8C03\u8282\u6E38\u73A9\u5E26\u6709\u80CC\u666F\u89C6\u9891\u7684\u66F2\u76EE\u65F6\u662F\u5426\u64AD\u653E\u80CC\u666F\u89C6\u9891"
+  ScreenType: 2
+  RadialSubType: 0
+  DefaultItemIndex: 0
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: "\u603B\u662F\u8BE2\u95EE"
+    SubtitleType: 0
+    Subtitle: "\u603B\u662F\u8BE2\u95EE\u662F\u5426\u64AD\u653E\u80CC\u666F\u89C6\u9891"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: BackgroundVideoSetting
+    SettingsType: 1
+    SettingsValueInt: 0
+    SettingsValueEnum: Ask
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: ON
+    SubtitleType: 0
+    Subtitle: "\u603B\u662F\u64AD\u653E\u80CC\u666F\u89C6\u9891"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: BackgroundVideoSetting
+    SettingsType: 1
+    SettingsValueInt: 1
+    SettingsValueEnum: On
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: OFF
+    SubtitleType: 0
+    Subtitle: "\u4E0D\u64AD\u653E\u80CC\u666F\u89C6\u9891"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: BackgroundVideoSetting
+    SettingsType: 1
+    SettingsValueInt: 2
+    SettingsValueEnum: Off
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}

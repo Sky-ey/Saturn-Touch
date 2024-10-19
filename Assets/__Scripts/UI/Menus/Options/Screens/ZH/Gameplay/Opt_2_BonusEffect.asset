@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_2_BonusEffect
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: "Bonus \u7279\u6548"
+  ScreenSubtitle: "\u5F00\u5173Bouns\u97F3\u7B26\u7279\u6548\u7684\u5F00\u5173"
+  ScreenType: 2
+  RadialSubType: 0
+  DefaultItemIndex: 1
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: OFF
+    SubtitleType: 0
+    Subtitle: "\u5173\u95EDBonus\u7279\u6548"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: BonusEffectSetting
+    SettingsType: 1
+    SettingsValueInt: 0
+    SettingsValueEnum: Off
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: ON
+    SubtitleType: 0
+    Subtitle: "\u5F00\u542FBonus\u7279\u6548"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: BonusEffectSetting
+    SettingsType: 1
+    SettingsValueInt: 1
+    SettingsValueEnum: On
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}

@@ -2,8 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using SaturnGame.Loading;
 using SaturnGame.Settings;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Localization.Settings;
 
 namespace SaturnGame.UI
 {
@@ -17,10 +20,11 @@ public class OptionsLogic : MonoBehaviour
     }
 
     [SerializeField] private OptionsPanelAnimator panelAnimator;
-    [SerializeField] private UIScreen startScreen;
+    [SerializeField] private UIScreen startScreenEN;
+    [SerializeField] private UIScreen startScreenZH;
     [SerializeField] private GameObject revertButton;
-
-    private static UIAudioController UIAudio => UIAudioController.Instance;
+	[SerializeField] private Image characterImage;
+	private static UIAudioController UIAudio => UIAudioController.Instance;
     private readonly Stack<UIScreen> screenStack = new();
     private UIScreen CurrentScreen => screenStack.Peek();
     private readonly Stack<int> indexStack = new(new List<int> { 0 });
@@ -37,12 +41,28 @@ public class OptionsLogic : MonoBehaviour
 
     private MenuState state = MenuState.Idle;
 
-    private void Awake()
+    private async void Awake()
     {
-        screenStack.Push(startScreen);
-        panelAnimator.GetPanels(startScreen);
-        panelAnimator.SetPrimaryPanel(startScreen.ListItems[CurrentIndex]);
-    }
+        if (LocalizationSettings.SelectedLocale.Identifier.Code == "en")
+        {
+            screenStack.Push(startScreenEN);
+            panelAnimator.GetPanels(startScreenEN);
+            panelAnimator.SetPrimaryPanel(startScreenEN.ListItems[CurrentIndex]);
+        }else
+        {
+            screenStack.Push(startScreenZH);
+		    panelAnimator.GetPanels(startScreenZH);
+			panelAnimator.SetPrimaryPanel(startScreenZH.ListItems[CurrentIndex]);
+		}
+	    //Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
+		Texture2D character = await ImageLoader.LoadImageWebRequest(Application.persistentDataPath + "/character.png");
+		Debug.Log(Application.streamingAssetsPath);
+		if (character != null)
+		{
+			Debug.Log("Character Replaced!");
+			characterImage.sprite = Sprite.Create(character, new Rect(0, 0, character.width, character.height), new Vector2(0.5f, 0.5f));
+		}
+		}
 
     public async void OnConfirm()
     {

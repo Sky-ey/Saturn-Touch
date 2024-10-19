@@ -11,8 +11,8 @@ namespace SaturnGame.Data
 {
 public class SongDatabase : MonoBehaviour
 {
-    [NotNull] public static string SongPacksPath => Path.Combine(Application.streamingAssetsPath, "SongPacks");
-    //[NotNull] public static string SongPacksPath => Path.Combine(Application.persistentDataPath, "SongPacks");
+    //[NotNull] public static string SongPacksPath => Path.Combine(Application.streamingAssetsPath, "SongPacks");
+    [NotNull] public static string SongPacksPath => Path.Combine(Application.persistentDataPath, "SongPacks");
 
     private readonly List<Song> songs = new();
 

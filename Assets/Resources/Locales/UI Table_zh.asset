@@ -115,6 +115,14 @@ MonoBehaviour:
     m_Localized: "\u8BE6\u7EC6"
     m_Metadata:
       m_Items: []
+  - m_Id: 835914673815552
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850125248397312
+    m_Localized: "\u8BBE\u7F6E"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

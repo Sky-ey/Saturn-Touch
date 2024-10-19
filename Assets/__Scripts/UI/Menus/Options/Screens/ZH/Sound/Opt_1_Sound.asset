@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_1_Sound
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: 
+  ScreenSubtitle: 
+  ScreenType: 1
+  RadialSubType: 0
+  DefaultItemIndex: 0
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u6253\u51FB\u97F3\u6548\u7C7B\u578B"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: TouchSE
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: f0efa868ee353424ca9a13f57c3aa1f2, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "BGM \u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: BGMVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 467af9133d96f90469aee9b79be4bafd, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u6253\u51FB\u97F3\u6548\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: HitsoundOverallVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 46813d0d68fe8a743b447c9fb0302545, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u6B63\u89E3\u97F3\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: GuideVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: fc87ff835e306df419bc57ab388a4128, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Touch \u97F3\u7B26\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: TouchNoteVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: a188c5f1105c4b04cba9168a0d63cbc9, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Hold \u97F3\u7B26\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: HoldNoteVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 8e6b331e923c4fa4397f7cf45a0c0ff4, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Slide \u97F3\u7B26\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: SlideNoteVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 3443b203ff4b0b74a9b48500132eb6ad, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Snap \u97F3\u7B26\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: SnapNoteVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: e00d9a5c73f2a8e41b85308e27743c89, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Chain \u97F3\u7B26\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: ChainNoteVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 26c45d4b217df504ba5f812519e3383b, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Bonus \u7279\u6548\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: BonusEffectVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 1102116a1e0246946ae0fd5e089d167b, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "R\u97F3\u7B26\u7279\u6548\u97F3\u91CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: RNoteEffectVolume
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 652655c0809819844ba62d16d5682093, type: 2}

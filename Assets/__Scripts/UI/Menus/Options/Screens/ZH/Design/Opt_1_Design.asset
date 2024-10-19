@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_1_Design
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: 
+  ScreenSubtitle: 
+  ScreenType: 1
+  RadialSubType: 0
+  DefaultItemIndex: 0
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u4E2A\u4EBA\u559C\u597D\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: RingColor
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 4872f410e3df78148b5173c00e1ccc40, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u5224\u5B9A\u7EBF\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: JudgeLineColor
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 2eb1f96136f797145927233dd8a6261d, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u97F3\u7B26\u5BBD\u5EA6"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteWidth
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 1c53f7f2f8cdb3f4fbc054b6e4967835, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Touch\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDTouch
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: bc583dc066cd77343b8a8f8381efc995, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Chain\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDChain
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 7324aeddb20dab44497e235acc9ed7b4, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Hold\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDHold
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 90c27fe77ae16a24b821e76738e1800e, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u2190 \u5DE6\u6ED1\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDSwipeClockwise
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 4d6b68d055b4e2c4b84bdedcff1ba27e, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u2192 \u53F3\u6ED1\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDSwipeCounterclockwise
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: d66374503715f9b45b6ef440019e9309, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u2191 \u4E0A\u6ED1\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDSnapForward
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 40274ca6077b1884085138720cea0c00, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u2193 \u4E0B\u6ED1\u97F3\u7B26\u989C\u8272"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteColorIDSnapBackward
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: a17b2aa1ec27d014f8d75d91970f07c2, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u6ED1\u52A8\u97F3\u7B26\u6E10\u53D8\u8272\u53CD\u8F6C"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: InvertSlideColor
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 96957b242f91ff342b121f7bdbe9f48f, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u89E6\u6478\u7279\u6548\u7C7B\u578B"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: TouchEffect
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 05394c937722c974faa62ebe58c44951, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u89E6\u6478\u7279\u6548\uFF08\u70B8\u88C2\uFF09"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: ShootEffect
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 85172bf2e56df7340918e0ca78e8918c, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u89E6\u6478\u7279\u6548\uFF08\u5C04\u7EBF\uFF09"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: ShowKeyBeams
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 521ae4143f234134fbde4b73a92a8629, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "R\u97F3\u7B26\u7279\u6548"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: ShowRNoteEffect
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: c9ef024a8b0b91849b96823c9c91d99a, type: 2}

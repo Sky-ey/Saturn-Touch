@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_1_Gameplay
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: 
+  ScreenSubtitle: 
+  ScreenType: 1
+  RadialSubType: 0
+  DefaultItemIndex: 2
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u8C31\u9762\u6D41\u901F"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: NoteSpeed
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: f3d26785beafe0b4398dd8937362aeda, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u504F\u79FB\u6A21\u5F0F"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: OffsetMode
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: ed03a2686b966004da10e88cd8156ad6, type: 2}
+  - VisibilityType: 1
+    ConditionParameter: OffsetMode
+    ConditionValue: Advanced
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u97F3\u9891\u504F\u79FB"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: AudioOffsetMs
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 6c07a681f61eabd47b8f43c17e446129, type: 2}
+  - VisibilityType: 1
+    ConditionParameter: OffsetMode
+    ConditionValue: Standard
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u97F3\u9891\u504F\u79FB"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: AudioOffsetMs
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 6c07a681f61eabd47b8f43c17e446129, type: 2}
+  - VisibilityType: 1
+    ConditionParameter: OffsetMode
+    ConditionValue: Classic
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u97F3\u9891\u504F\u79FB"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: ClassicOffset
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 99921726a9839f24f9a193887e505297, type: 2}
+  - VisibilityType: 1
+    ConditionParameter: OffsetMode
+    ConditionValue: Advanced
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u8C31\u9762\u504F\u79FB"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: VisualOffsetMs
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 1c83b1a898b64c94193c9be1c78d1ff1, type: 2}
+  - VisibilityType: 1
+    ConditionParameter: OffsetMode
+    ConditionValue: Advanced
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u8F93\u5165\u5EF6\u8FDF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: InputLatencyMs
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: a3931c604ba639c4d816ea6072410c2f, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u906E\u7F69\u6D53\u5EA6"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: MaskDensity
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: bea6550d5c6405e4a94dec08d08e3bfd, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u80CC\u666F\u89C6\u9891"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: BackgroundVideoSetting
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: edcda3398d9603447b9282400efbc398, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "Bouns \u7279\u6548"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: BonusEffectSetting
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 60d33fd40b86d4e40a162e773be2878e, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u8C31\u9762\u955C\u50CF"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: MirrorNotes
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: d4e0e9dc27c8ce84ba159428afbb403a, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u5F03\u6743\u8BBE\u5B9A"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: GiveUpSetting
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: b32280e15993def48bc651ee9e41cded, type: 2}

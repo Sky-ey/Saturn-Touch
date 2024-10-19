@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_2_OffsetModes
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: "\u504F\u79FB\u6A21\u5F0F"
+  ScreenSubtitle: "\u9009\u62E9\u4E00\u4E2A\u504F\u79FB\u6A21\u5F0F\u800C\u540E\u8C03\u8282\u504F\u79FB"
+  ScreenType: 2
+  RadialSubType: 0
+  DefaultItemIndex: 2
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: "\u4F4E\u5EF6\u8FDF"
+    SubtitleType: 0
+    Subtitle: "\u53EF\u8C03\u8282\u97F3\u9891\u504F\u79FB, \u4E0D\u53EF\u8C03\u8282\u8F93\u5165\u5EF6\u8FDF"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: OffsetMode
+    SettingsType: 1
+    SettingsValueInt: 0
+    SettingsValueEnum: Standard
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: "\u7ECF\u5178"
+    SubtitleType: 0
+    Subtitle: "\u53EF\u8C03\u8282\u97F3\u9891\u5EF6\u8FDF, \u6A21\u5F0F\u4E0E\u6E38\u620F\u7C7B\u4F3C"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: OffsetMode
+    SettingsType: 1
+    SettingsValueInt: 0
+    SettingsValueEnum: Classic
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 0
+    Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+    Title: "\u8FDB\u9636"
+    SubtitleType: 0
+    Subtitle: "\u5B8C\u5168\u81EA\u5B9A\u4E49\u97F3\u9891\u548C\u8F93\u5165\u5EF6\u8FDF"
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: OffsetMode
+    SettingsType: 1
+    SettingsValueInt: 2
+    SettingsValueEnum: Advanced
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}

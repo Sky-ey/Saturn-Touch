@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_2_ColorSnapFW
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: "\u2191 \u4E0A\u5212\u97F3\u7B26\u989C\u8272"
+  ScreenSubtitle: 
+  ScreenType: 2
+  RadialSubType: 5
+  DefaultItemIndex: 1
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 1, g: 0.21960786, b: 0.9294118, a: 1}
+    Title: "\u6D0B\u7EA2\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.86666673, g: 0.08627451, b: 0.08627451, a: 1}
+    Title: "\u7EA2\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 4
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 1, g: 0.29803923, b: 0, a: 1}
+    Title: "\u6D45\u7EA2\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 7
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 1, g: 0.6, b: 0, a: 1}
+    Title: "\u6A59\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 2
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 1, g: 0.93725497, b: 0, a: 1}
+    Title: "\u6D45\u9EC4\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 8
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 1, g: 0.909804, b: 0.41960788, a: 1}
+    Title: "\u4EAE\u9EC4\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 1
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.6, g: 0.5372549, b: 0, a: 1}
+    Title: "\u6DF1\u9EC4\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 6
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.13725491, g: 0.8196079, b: 0.10980393, a: 1}
+    Title: "\u6D45\u7EFF\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 3
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.21960786, g: 0.61960787, b: 0.41960788, a: 1}
+    Title: "\u7EFF\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 9
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.40000004, g: 0.8000001, b: 1, a: 1}
+    Title: "\u6D45\u84DD\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 11
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.11764707, g: 0.6666667, b: 1, a: 1}
+    Title: "\u5929\u84DD\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 5
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.25882354, b: 1, a: 1}
+    Title: "\u4EAE\u84DD\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 10
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0.77647066, g: 0.77647066, b: 0.77647066, a: 1}
+    Title: "\u6D45\u7070\u8272"
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: NoteColorIDSnapForward
+    SettingsType: 0
+    SettingsValueInt: 12
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
