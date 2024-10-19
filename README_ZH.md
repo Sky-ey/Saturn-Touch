@@ -10,21 +10,21 @@ Saturn-Touch 是基于 Unity Input Manager 的 [Saturn](https://github.com/Yasu3
 
 ### 支持功能
 - 基础触摸支持
-- 中文翻译 （绝大部分）
-- 多语言（WIP）
-- 角色定制（WIP）
+- 多语言
+- 玩家信息自定义（WIP）
 
 ### 可用平台
 - Windows 
   - x64 ***(已测试)***
   - Arm64 ***(已测试)***
-- 安卓 ***(存在渲染错误)***
+- 安卓 ***(已测试)***
 - IOS ***(未测试)***
 
 ### 推荐使用
 - 带有原生触摸屏的 Windows
 - Sunshine + Moonlight ***(非鼠标模式和触控板模式)***
 - 安装了 Windows on ARM 的平板电脑
+- 高性能的安卓设备（平板）
 
 ***
 # Saturn ![Icon](docs/SaturnNav.png)

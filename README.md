@@ -10,20 +10,21 @@ Saturn-Touch is ***more than*** just touch support, it contains some ***other mo
 
 ### Features
 - Basic touch support
-- Muti-language (WIP)
-- Character custom（WIP）
+- Muti-language
+- Custom Profile (WIP)
 
 ### Platforms
 - Windows 
   - x64 ***(Tested)***
   - Arm64 ***(Tested)***
-- Android  ***(Rendering errors exist)***
+- Android  ***(Tested)***
 - IOS ***(Not Tested)***
 
 ### Recommend Usage
 - Windows with native touch screen
 - Sunshine + Moonlight ***(Not in mouse mode and trackpad mode)***
 - Pads installed Windows on ARM
+- High performance Android device (Pad)
 
 ***
 # Saturn ![navigator icon](docs/SaturnNav.png)
