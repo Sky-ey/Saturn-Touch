@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d33c47d144154fa475b9f1d8e0e92, type: 3}
+  m_Name: Opt_2_GameFrameRate
+  m_EditorClassIdentifier: Assembly-CSharp:SaturnGame.UI:UIScreen
+  ScreenTitle: "\u6E38\u620F\u5E27\u7387"
+  ScreenSubtitle: "\u8C03\u8282\u6E38\u620F\u65F6\u6BCF\u79D2\u6E32\u67D3\u7684\u753B\u9762\u6570\n\u8BF7\u6839\u636E\u81EA\u5DF1\u7684\u8BBE\u5907\u60C5\u51B5\u6309\u9700\u8C03\u6574"
+  ScreenType: 2
+  RadialSubType: 0
+  DefaultItemIndex: 0
+  ListItems:
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
+    Title: 30 FPS
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: GameFrameRate
+    SettingsType: 0
+    SettingsValueInt: 30
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
+    Title: 60 FPS
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: GameFrameRate
+    SettingsType: 0
+    SettingsValueInt: 60
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
+    Title: 90 FPS
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: GameFrameRate
+    SettingsType: 0
+    SettingsValueInt: 90
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
+    Title: 120 FPS
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: GameFrameRate
+    SettingsType: 0
+    SettingsValueInt: 120
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
+    Title: 144 FPS
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: GameFrameRate
+    SettingsType: 0
+    SettingsValueInt: 144
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 
+    ItemType: 0
+    Color: {r: 0, g: 0.70980394, b: 0.8745098, a: 1}
+    Title: 165 FPS
+    SubtitleType: 0
+    Subtitle: 
+    SettingsBinding: 
+    Sprite: {fileID: 0}
+    SettingsParameter: GameFrameRate
+    SettingsType: 0
+    SettingsValueInt: 165
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 0}

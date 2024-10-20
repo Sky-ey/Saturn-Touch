@@ -4,6 +4,8 @@ using System.Linq;
 using JetBrains.Annotations;
 using SaturnGame.Data;
 using SaturnGame.Loading;
+using SaturnGame.Settings;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -58,15 +60,18 @@ public class SongSelectLogic : MonoBehaviour
             pageAnimator.ToChartPreviewInstant();
         }
 
-        //Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
-        Texture2D character = await ImageLoader.LoadImageWebRequest(Application.persistentDataPath + "/character.png");
+        Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
+        //Texture2D character = await ImageLoader.LoadImageWebRequest(Application.persistentDataPath + "/character.png");
         Debug.Log(Application.streamingAssetsPath);
         if (character != null)
         {
             Debug.Log("Character Replaced!");
             characterImage.sprite = Sprite.Create(character, new Rect(0, 0, character.width, character.height), new Vector2(0.5f, 0.5f));
         }
-
+        if (SettingsManager.Instance.PlayerSettings.GameSettings.IsAutoPlay)
+        {
+            AutoPlatStatuText.text = "ON";
+        }
         await LoadAllCards();
     }
 
@@ -621,8 +626,24 @@ public class SongSelectLogic : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.L)) OnReload();
         if (Input.GetKeyDown(KeyCode.R)) OnRandom();
         if (Input.GetKeyDown(KeyCode.T)) OnGroupRandom();
+        if (Input.GetKeyDown(KeyCode.U)) OnAutoSelected();
 
         if (Input.GetKeyDown(KeyCode.X)) bgmPreview.FadeoutBgmPreview();
+    }
+
+    [SerializeField] private TMP_Text AutoPlatStatuText;
+    public void OnAutoSelected()
+    {
+        if (SettingsManager.Instance.PlayerSettings.GameSettings.IsAutoPlay)
+        {
+			SettingsManager.Instance.PlayerSettings.SetParameter("IsAutoPlay", false);
+			//SettingsManager.Instance.PlayerSettings.GameSettings.IsAutoPlay = false;
+            AutoPlatStatuText.text = "OFF";
+		} else
+        {
+			SettingsManager.Instance.PlayerSettings.SetParameter("IsAutoPlay", true);
+			AutoPlatStatuText.text = "ON";
+	    }
     }
 }
 }

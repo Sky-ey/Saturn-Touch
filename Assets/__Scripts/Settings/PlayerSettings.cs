@@ -218,6 +218,10 @@ public class GameSettings : SettingsWithTomlMetadata
     }
 
     public GiveUpOptions GiveUpSetting { get; set; } = GiveUpOptions.Off;
+
+    public int GameFrameRate { get; set; } = 60;
+
+    public bool IsAutoPlay { get; set; } = false;
 }
 
 [Serializable]

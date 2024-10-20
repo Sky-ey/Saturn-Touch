@@ -54,8 +54,8 @@ public class OptionsLogic : MonoBehaviour
 		    panelAnimator.GetPanels(startScreenZH);
 			panelAnimator.SetPrimaryPanel(startScreenZH.ListItems[CurrentIndex]);
 		}
-	    //Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
-		Texture2D character = await ImageLoader.LoadImageWebRequest(Application.persistentDataPath + "/character.png");
+	    Texture2D character = await ImageLoader.LoadImageWebRequest(Application.streamingAssetsPath + "/character.png");
+		//Texture2D character = await ImageLoader.LoadImageWebRequest(Application.persistentDataPath + "/character.png");
 		Debug.Log(Application.streamingAssetsPath);
 		if (character != null)
 		{

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using JetBrains.Annotations;
+using SaturnGame.Settings;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Scripting;
@@ -18,7 +19,6 @@ public class ScoringManager : MonoBehaviour
 {
     public bool AutoWriteReplays = true;
     public bool WritingReplayAndExiting; // Only modify on main thread Update()
-	[SerializeField] public bool IsAutoPlay = false;
 
 
 	[Header("DEBUG")]
@@ -546,7 +546,7 @@ public class ScoringManager : MonoBehaviour
     //   triggering scoring updates during sparse input methods such as replays.)
     public void HandleInput(TouchState? touchState, float timeMs)
     {
-		if (IsAutoPlay)
+		if (SettingsManager.Instance.PlayerSettings.GameSettings.IsAutoPlay)
 		{
 			AutoPlayNotes(timeMs);
 			return;

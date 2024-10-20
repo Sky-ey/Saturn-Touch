@@ -214,7 +214,7 @@ namespace SaturnGame
             
             while (counter < score)
             {
-                counter = Mathf.Min(counter + 1111, score);
+                counter = Mathf.Min(counter + 5111, score);
                 tmpScore.text = $"<mspace=0.765em>{counter:0000000}</mspace>";
                 await Awaitable.WaitForSecondsAsync(0.001f);
             }

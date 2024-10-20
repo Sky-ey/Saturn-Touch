@@ -210,3 +210,19 @@ MonoBehaviour:
     SettingsValueEnum: 
     SettingsValueFloat: 0
     NextScreen: {fileID: 11400000, guid: b32280e15993def48bc651ee9e41cded, type: 2}
+  - VisibilityType: 0
+    ConditionParameter: 
+    ConditionValue: 0
+    ItemType: 1
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Title: "\u6E38\u620F\u5E27\u7387"
+    SubtitleType: 1
+    Subtitle: 
+    SettingsBinding: GameFrameRate
+    Sprite: {fileID: 0}
+    SettingsParameter: 
+    SettingsType: 0
+    SettingsValueInt: 0
+    SettingsValueEnum: 
+    SettingsValueFloat: 0
+    NextScreen: {fileID: 11400000, guid: 08836d24788c1b148b1632ca3c558628, type: 2}

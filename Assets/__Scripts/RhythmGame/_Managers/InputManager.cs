@@ -54,6 +54,7 @@ public class InputManager : Singleton<InputManager>, IInputProvider
         };
         queue = new(queueSize);
         TouchRingManager.Instance.SetCurrentPlatingStatus(1);
+        Application.targetFrameRate = SettingsManager.Instance.PlayerSettings.GameSettings.GameFrameRate;
     }
 
     private void OnDestroy()
